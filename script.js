@@ -39,6 +39,9 @@ function eatChoco(){
   init();
 }
 
+function resetSound(){
+  nom.currentTime = 0;
+}
 
 function init(){
   ctx.clearRect(0,0,WIDTH,HEIGHT);
