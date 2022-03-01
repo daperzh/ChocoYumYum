@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <canvas id="cnv" onclick="eatChoco()"></canvas>
+  <canvas id="cnv" onclick="eatChoco()" ontouchstart="(e) => {e.preventDefault()}" ontouchend="resetSound()"></canvas>
   
   <footer>
     <p>Made with <img src="images/tea.png"> and <img src="images/heart.png"> by <span>Amin</span></p>
